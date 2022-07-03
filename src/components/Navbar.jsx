@@ -1,21 +1,46 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const clickHandler = () => {
     setClicked(!clicked);
   };
+  const closeHandler = () => {
+    setClicked(!clicked);
+  };
   return (
     <>
-      <div className="flex items-center justify-between bg-[#e4e4e6] h-[70px] drop-shadow-md px-4">
+      <div className="fixed flex items-center justify-between w-full bg-[#e4e4e6] h-[70px] drop-shadow-md px-4 z-30">
         <div className="flex justify-center items-center gap-4">
           <h1 className="text-2xl sm:text-3xl font-bold">BRAND.</h1>
           <ul className="hidden md:flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
-            <li>Platforms</li>
-            <li>Pricing</li>
+            <li>
+              <Link to="home" smooth={true} offset={-50} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} offset={-50} duration={500}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="support" smooth={true} offset={-50} duration={500}>
+                Support
+              </Link>
+            </li>
+            <li>
+              <Link to="platforms" smooth={true} offset={-100} duration={500}>
+                Platforms
+              </Link>
+            </li>
+            <li>
+              <Link to="pricing" smooth={true} offset={-50} duration={500}>
+                Pricing
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="hidden gap-4 md:flex">
@@ -33,21 +58,63 @@ const Navbar = () => {
         )}
       </div>
       {clicked && (
-        <div className="absolute w-screen bg-[#e4e4e6] px-3 z-10 md:hidden">
+        <div className="fixed top-[69px] w-screen bg-[#e4e4e6] px-3 z-30 md:hidden">
           <ul>
             <li className="p-3 border-b-2 border-zinc-300 w-full hover:pl-4 transition-all">
-              Home
+              <Link
+                onClick={closeHandler}
+                to="home"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Home
+              </Link>
             </li>
             <li className="p-3 border-b-2 border-zinc-300 w-full hover:pl-4 transition-all">
-              About
+              <Link
+                onClick={closeHandler}
+                to="about"
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                About
+              </Link>
             </li>
             <li className="p-3 border-b-2 border-zinc-300 w-full hover:pl-4 transition-all">
-              Support
+              <Link
+                onClick={closeHandler}
+                to="support"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Support
+              </Link>
             </li>
             <li className="p-3 border-b-2 border-zinc-300 w-full hover:pl-4 transition-all">
-              Platforms
+              <Link
+                onClick={closeHandler}
+                to="platforms"
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Platforms
+              </Link>
             </li>
-            <li className="p-3 w-full hover:pl-4 transition-all">Pricing</li>
+            <li className="p-3 w-full hover:pl-4 transition-all">
+              <Link
+                onClick={closeHandler}
+                to="pricing"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Pricing
+              </Link>
+            </li>
           </ul>
           <div className="flex flex-col gap-4 py-3">
             <button className="border border-indigo-500 bg-transparent text-indigo-500">

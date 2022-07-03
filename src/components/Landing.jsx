@@ -12,8 +12,9 @@ const Landing = () => {
   return (
     <>
       <div
+        name="home"
         className="flex w-full 
-      justify-evenly items-center h-[calc(100vh-70px)] bg-zinc-300"
+      justify-evenly items-center h-[100vh] bg-zinc-300"
       >
         <div className="flex flex-col justify-center md:mb-[50px] mb-[150px]">
           <p className="text-2xl mb-2">Unique Sequencing & Production</p>

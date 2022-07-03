@@ -8,7 +8,4 @@
   button {
     @apply bg-indigo-600 p-3 rounded-md text-white;
   }
-  html {
-    @apply scroll-smooth
-  }
 }

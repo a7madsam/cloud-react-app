@@ -6,7 +6,7 @@ import SupportOptions from "./SupportOptions";
 
 function Support() {
   return (
-    <div>
+    <div name="support">
       <div className="w-full h-[700px] absolute -z-10 bg-gray-900/90">
         <img
           className="w-full h-full object-cover mix-blend-overlay"

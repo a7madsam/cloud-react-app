@@ -3,7 +3,7 @@ import AboutState from "./AboutState";
 
 function About() {
   return (
-    <div className="flex justify-center items-center my-6">
+    <div name="about" className="flex justify-center items-center my-6">
       <div className="flex flex-col justify-center items-center min-h-[550px] w-[70%]">
         <h2 className="md:text-5xl text-3xl font-bold py-4 text-center">
           Trusted by developers across the world

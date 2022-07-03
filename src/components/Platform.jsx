@@ -3,8 +3,8 @@ import PlatformProp from "./PlatformProp";
 
 function Platform() {
   return (
-    <div className="max-w-[1240px] mx-auto mb-[70px]">
-      <div className="flex flex-col items-center mt-[100px] gap-8">
+    <div name="platforms" className="max-w-[1240px] mx-auto my-[100px]">
+      <div className="flex flex-col items-center gap-8">
         <h2 className="md:text-5xl text-4xl font-bold">All-In-One Platform</h2>
         <p className="text-2xl text-slate-600 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,

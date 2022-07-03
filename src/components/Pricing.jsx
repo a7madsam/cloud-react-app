@@ -10,7 +10,7 @@ function Pricing() {
     "Lorem, ipsum dolor.",
   ];
   return (
-    <div className="w-full my-24">
+    <div name="pricing" className="w-full my-24">
       <div className="w-full h-[800px] bg-slate-900 absolute mix-blend-overlay"></div>
       <div className="max-w-[1240px] mx-auto">
         <div className="flex flex-col justify-center items-center text-white gap-[20px]">

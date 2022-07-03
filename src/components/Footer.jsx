@@ -15,40 +15,40 @@ const Footer = () => {
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
-            <li className="py-1">Marketing</li>
-            <li className="py-1">Analytics</li>
-            <li className="py-1">Commerce</li>
-            <li className="py-1">Data</li>
-            <li className="py-1">Cloud</li>
+            <li className="py-1 px-3">Marketing</li>
+            <li className="py-1 px-3">Analytics</li>
+            <li className="py-1 px-3">Commerce</li>
+            <li className="py-1 px-3">Data</li>
+            <li className="py-1 px-3">Cloud</li>
           </ul>
         </div>
         <div>
           <h6 className="font-bold uppercase pt-2">Support</h6>
           <ul>
-            <li className="py-1">Pricing</li>
-            <li className="py-1">Documentation</li>
-            <li className="py-1">Guides</li>
-            <li className="py-1">API Status</li>
+            <li className="py-1 px-3">Pricing</li>
+            <li className="py-1 px-3">Documentation</li>
+            <li className="py-1 px-3">Guides</li>
+            <li className="py-1 px-3">API Status</li>
           </ul>
         </div>
         <div>
           <h6 className="font-bold uppercase pt-2">Company</h6>
           <ul>
-            <li className="py-1">About</li>
-            <li className="py-1">Blog</li>
-            <li className="py-1">Jobs</li>
-            <li className="py-1">Press</li>
-            <li className="py-1">Partners</li>
+            <li className="py-1 px-3">About</li>
+            <li className="py-1 px-3">Blog</li>
+            <li className="py-1 px-3">Jobs</li>
+            <li className="py-1 px-3">Press</li>
+            <li className="py-1 px-3">Partners</li>
           </ul>
         </div>
         <div>
           <h6 className="font-bold uppercase pt-2">Legal</h6>
           <ul>
-            <li className="py-1">Claims</li>
-            <li className="py-1">Privacy</li>
-            <li className="py-1">Terms</li>
-            <li className="py-1">Policies</li>
-            <li className="py-1">Conditions</li>
+            <li className="py-1 px-3">Claims</li>
+            <li className="py-1 px-3">Privacy</li>
+            <li className="py-1 px-3">Terms</li>
+            <li className="py-1 px-3">Policies</li>
+            <li className="py-1 px-3">Conditions</li>
           </ul>
         </div>
         <div className="col-span-2 pt-8 md:pt-2">

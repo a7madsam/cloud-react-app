@@ -8,7 +8,7 @@ function SupportOptions(props) {
         <p className="text-3xl font-bold mt-[70px] text-black">{props.title}</p>
         <p className="text-2xl text-slate-600">{props.description}</p>
       </div>
-      <div className="flex gap-2 items-center px-[20px] py-[10px] w-full bg-[#F1F5F9] text-indigo-600 cursor-pointer">
+      <div className="flex gap-2 items-center px-[20px] py-[13px] w-full bg-[#F1F5F9] text-indigo-700 cursor-pointer">
         <span>Contact Us</span>
         <ArrowSmRightIcon className="w-[20px]" />
       </div>
