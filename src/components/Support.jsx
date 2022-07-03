@@ -27,7 +27,7 @@ function Support() {
             facilis expedita.
           </p>
         </div>
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-8 justify-center mt-[100px] mx-[10px]">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-12 justify-center mt-[100px] mx-[10px]">
           <SupportOptions
             usedIcon={
               <PhoneIcon className="w-[60px] absolute -top-[30px] left-8 text-white bg-indigo-600 rounded-xl p-4" />

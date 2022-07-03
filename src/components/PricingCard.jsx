@@ -17,9 +17,12 @@ function PricingCard(props) {
       </div>
       <p className="text-2xl text-slate-500">{description}</p>
       <ul className="flex flex-col gap-8 mt-6">
-        {properties.map((item) => {
+        {properties.map((item, idx) => {
           return (
-            <li className="flex gap-3 text-[25px] items-center text-slate-700">
+            <li
+              key={idx}
+              className="flex gap-3 text-[25px] items-center text-slate-700"
+            >
               <span>
                 <CheckIcon className="w-[30px] text-green-600" />
               </span>
