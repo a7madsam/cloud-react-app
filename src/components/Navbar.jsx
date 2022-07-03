@@ -7,7 +7,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-between w-screen bg-[#e4e4e6] h-[70px] drop-shadow-md px-4">
+      <div className="flex items-center justify-between bg-[#e4e4e6] h-[70px] drop-shadow-md px-4">
         <div className="flex justify-center items-center gap-4">
           <h1 className="text-2xl sm:text-3xl font-bold">BRAND.</h1>
           <ul className="hidden md:flex">
